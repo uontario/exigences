@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="choisi un programme" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="choisit un programme" version="4">
   <OBJECT>
-    <ID name="choisi un programme" mc="Standard.UseCase" uid="0a5392db-f019-4dbf-a6c5-eb7389dcb84a"/>
+    <ID name="choisit un programme" mc="Standard.UseCase" uid="0a5392db-f019-4dbf-a6c5-eb7389dcb84a"/>
     <PID name="uof_exigences" mc="Standard.Package" uid="04c2809e-1328-46bd-9e3d-d8ff76a8c650"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[choisi un programme]]></ATT>
+      <ATT name="Name"><![CDATA[choisit un programme]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
