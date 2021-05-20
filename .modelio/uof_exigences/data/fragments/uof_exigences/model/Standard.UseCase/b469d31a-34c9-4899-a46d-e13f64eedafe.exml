@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="offre des cours aux professeurs" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="indentifie ..." version="4">
   <OBJECT>
-    <ID name="offre des cours aux professeurs" mc="Standard.UseCase" uid="44d94d2a-1ede-4975-8c55-d1f1461445ff"/>
+    <ID name="indentifie ..." mc="Standard.UseCase" uid="b469d31a-34c9-4899-a46d-e13f64eedafe"/>
     <PID name="uof_exigences" mc="Standard.Package" uid="04c2809e-1328-46bd-9e3d-d8ff76a8c650"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,13 +9,45 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[offre des cours aux professeurs]]></ATT>
+      <ATT name="Name"><![CDATA[indentifie ...]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="470b8e05-98cd-4cdc-9a2f-5f0f5c04ef78"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="les besoins des etudiants" mc="Standard.UseCase" uid="d046b6f7-2680-4e58-9071-b2282952db04"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="05497e27-3ea6-4bdf-b650-5749ea497c9f"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="les besoins des employeurs" mc="Standard.UseCase" uid="57d07f25-adf7-49c1-be1b-d2bf6a568ebb"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="3e07d606-1bdd-43c9-9de5-518a4294141c"/>
+          <ID name="" mc="Infrastructure.Note" uid="db614588-0413-403b-9dbb-44cf89b7f48e"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -29,7 +61,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="ed872f50-a3a3-4a2e-af67-1447f51e9664"/>
+          <ID name="" mc="Infrastructure.Note" uid="070ab2ee-8893-40fb-8071-fd6da8630c42"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -43,7 +75,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="9d159f9d-9ba4-45cd-8477-d3d2a32524a7"/>
+          <ID name="" mc="Infrastructure.Note" uid="daa885e9-5e31-481a-9cd2-e1bc14d4c6f3"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -57,7 +89,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="17e5a451-313c-4608-a662-ddab79b97e97"/>
+          <ID name="" mc="Infrastructure.Note" uid="21a632c9-d2d2-4918-86a0-4b6fed6c7328"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -71,7 +103,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="65d0f87d-23f7-4184-9389-89e7015acc29"/>
+          <ID name="" mc="Infrastructure.Note" uid="094639f0-3616-4610-814e-99b32f4f4ab7"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -85,7 +117,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="1033df11-a742-41f2-93f9-4ef3a6dac7be"/>
+          <ID name="" mc="Infrastructure.Note" uid="e3435e2e-47f2-4925-8d15-de9bfd154283"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

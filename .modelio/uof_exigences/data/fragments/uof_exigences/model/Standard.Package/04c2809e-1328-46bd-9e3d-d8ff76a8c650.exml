@@ -23,7 +23,7 @@
         <COMPID name="fournit la documentation requise (guide etudiant, guide du programme, emploi du temps)" mc="Standard.UseCase" uid="d8b83d80-9f26-4394-9b89-347b5e623c62"/>
         <COMPID name="fournit les informations financieres (facture, RAFEO, bourse, ...)" mc="Standard.UseCase" uid="b0da5455-1b14-4828-911c-3b0c239f52c8"/>
         <COMPID name="Responsable de pole" mc="Standard.Actor" uid="4c877e8c-5599-4497-abc0-bf9afb4e6b37"/>
-        <COMPID name="assigne les professeurs au cours" mc="Standard.UseCase" uid="44d94d2a-1ede-4975-8c55-d1f1461445ff"/>
+        <COMPID name="offre des cours aux professeurs" mc="Standard.UseCase" uid="44d94d2a-1ede-4975-8c55-d1f1461445ff"/>
         <COMPID name="Professeur.e" mc="Standard.Actor" uid="c052b080-b011-4ea7-972f-ea736f0f6ac9"/>
         <COMPID name="donne son cours" mc="Standard.UseCase" uid="b7d9bb18-42f7-47b5-8117-ba21e5e749b0"/>
         <COMPID name="assiste au cours" mc="Standard.UseCase" uid="04f33502-8bd9-49dd-b648-cc9297fd383c"/>
@@ -33,6 +33,22 @@
         <COMPID name="gradue et remet son portfolio" mc="Standard.UseCase" uid="355ba859-4094-48f1-89b5-814c40a44ee8"/>
         <COMPID name="Conseiller.e" mc="Standard.Actor" uid="f848c513-0dd0-4ba4-807d-783f573bcc1d"/>
         <COMPID name="anime la vie estudiantine" mc="Standard.UseCase" uid="69925f3c-4133-4e3b-8653-daacef8976df"/>
+        <COMPID name="Developpeur de programmes" mc="Standard.Actor" uid="02b290c5-7d14-4485-844a-c0a4588c3d95"/>
+        <COMPID name="elabore ..." mc="Standard.UseCase" uid="23a40794-74cd-4d9d-8711-78c4f6f13192"/>
+        <COMPID name="la description des programmes" mc="Standard.UseCase" uid="30b1fe1a-4d97-4ba0-b33a-e683a76c9b71"/>
+        <COMPID name="les politiques et actions" mc="Standard.UseCase" uid="988a2ff8-57e4-49cb-a21b-ed759e8c8132"/>
+        <COMPID name="le portfolio" mc="Standard.UseCase" uid="466a0db8-89fe-4568-b223-c43b37a591f7"/>
+        <COMPID name="Responsable de ressources documentaires" mc="Standard.Actor" uid="66224baf-3f84-4ed0-a081-745bb0060b40"/>
+        <COMPID name="gere les ressources en ..." mc="Standard.UseCase" uid="0f2a2eef-1483-439b-8d1f-c8b6ef4ed3c6"/>
+        <COMPID name="Procure les documents, prete les medias et equipements" mc="Standard.UseCase" uid="390efac0-bccb-43c7-a2b3-e76d7d69cb3b"/>
+        <COMPID name="cree des ententes universitaires" mc="Standard.UseCase" uid="ff80dcf4-bbaf-46e9-b33f-fc7402f2591b"/>
+        <COMPID name="Coordonat(eur).rice de l'apprentissage par experience" mc="Standard.Actor" uid="699ab983-b0fc-4507-a937-f66b50f06e2f"/>
+        <COMPID name="gere ..." mc="Standard.UseCase" uid="b9e661f1-6337-4cbd-8bb4-8406d007332a"/>
+        <COMPID name="la banque des stages" mc="Standard.UseCase" uid="c418ea28-7680-4dd2-8cf1-8de3c96ff2ec"/>
+        <COMPID name="les partenaires communautaires" mc="Standard.UseCase" uid="80ff366d-87ae-4b6c-8ecf-de14963c7c9a"/>
+        <COMPID name="indentifie ..." mc="Standard.UseCase" uid="b469d31a-34c9-4899-a46d-e13f64eedafe"/>
+        <COMPID name="les besoins des etudiants" mc="Standard.UseCase" uid="d046b6f7-2680-4e58-9071-b2282952db04"/>
+        <COMPID name="les besoins des employeurs" mc="Standard.UseCase" uid="57d07f25-adf7-49c1-be1b-d2bf6a568ebb"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Inscriptions" mc="Standard.UseCaseDiagram" uid="09e8e561-7a0c-4d32-92d9-3de8539b8499"/>
