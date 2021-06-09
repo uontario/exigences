@@ -49,6 +49,11 @@
         <COMPID name="indentifie ..." mc="Standard.UseCase" uid="b469d31a-34c9-4899-a46d-e13f64eedafe"/>
         <COMPID name="les besoins des etudiants" mc="Standard.UseCase" uid="d046b6f7-2680-4e58-9071-b2282952db04"/>
         <COMPID name="les besoins des employeurs" mc="Standard.UseCase" uid="57d07f25-adf7-49c1-be1b-d2bf6a568ebb"/>
+        <COMPID name="TI" mc="Standard.Actor" uid="6d7b52c1-46e1-4379-a26f-8bb3b204c545"/>
+        <COMPID name="Lit les informations étudiante (status de l'inscription)" mc="Standard.UseCase" uid="5f76cc0f-eb24-40a8-93e1-c6f7f27ce120"/>
+        <COMPID name="Identifie le type de compte (cours accès, etc.)" mc="Standard.UseCase" uid="00948c67-7de0-4ffc-8fda-1e41699eb680"/>
+        <COMPID name="Création, Mise à jour du compte de l'édudiant" mc="Standard.UseCase" uid="798b0706-2869-4106-ba19-ada0427da882"/>
+        <COMPID name="Service Tiers : Push Notification" mc="Standard.UseCase" uid="37719c3e-8771-4c90-9b8e-7de88ee5e076"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Inscriptions" mc="Standard.UseCaseDiagram" uid="09e8e561-7a0c-4d32-92d9-3de8539b8499"/>
